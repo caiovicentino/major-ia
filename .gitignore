@@ -1,0 +1,54 @@
+# Dados de quem usa: nada disto pode ir para o repositório
+dados/
+trabalho/
+.env
+.env.*
+!.env.exemplo
+instrucoes.md
+
+# Áudio e modelos
+*.wav
+*.mp3
+*.m4a
+*.aiff
+*.opus
+*.ogg
+*.bin
+*.gguf
+*.safetensors
+
+# Registros, chats e históricos
+*.log
+*.jsonl
+*.jsonl.*
+*.lock
+!uv.lock
+sessao_voz.json
+saude_estado.json
+anel_ajustes.json
+live/chat*
+
+# Segredos
+*.pem
+*.key
+*.p12
+credentials*
+secrets*
+token*
+
+# Python e ferramentas
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.ruff_cache/
+
+# macOS e editores
+.DS_Store
+.idea/
+.vscode/
+.claude/
